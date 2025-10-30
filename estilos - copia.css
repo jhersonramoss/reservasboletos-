@@ -1,0 +1,103 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    background:linear-gradient(180deg, rgb(236, 4, 4), rgb(240, 66, 18),rgb(234, 147, 7))
+  }
+.contenedor{
+  text-align:center
+}
+ 
+   
+   
+  
+  
+  Header {    
+    background-image: url(titulos.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 98vh;
+    Color: rgb(255, 255, 255);
+    Padding: 1rem;
+    Text-align: center;
+  }
+  
+  .menu {
+    background-color: #ff0707;
+    Padding: 1rem;
+    Text-align: center;
+  }
+  
+  .menu a {
+    
+    Color: rgb(214, 204, 204);
+    Margin: 0 12px;
+    Text-decoration: none;
+    Font-weight: bold;
+  }
+  
+  .menu a:hover {
+    Text-decoration: underline;
+    
+  }
+  
+  
+   
+  
+   Form input, form select, form button {
+    Width: 100%;
+    Padding: 10px;
+    Margin: 8px 0;
+  }
+  
+  Footer {
+    Background-color: #064d09;
+    Color: white;
+    Text-align: center;
+    Padding: 1rem;
+    Margin-top: 2rem;
+  }
+  .cards-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+justify-content: center;
+  }
+  .card{
+    background-color: #aada1a;
+    border:1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.02;
+    height: 350px;
+    width: 400px;
+  }
+  .card:hover{
+transform:scale(1.02)
+}
+  .card h3{
+    color:#0f6726
+    margin-top : 0;
+  }
+  img{
+    height:150PX;
+    width: 280PX;
+  
+  }
+  .card img{
+    height: 200px;
+    width: 350px;
+}
+.card{
+  color: rgb(18, 5, 64);
+}
+.nav{
+  list-style: none;
+  margin: 0%;
+  padding: 14px 20px;
+  display: flex;
+
+}
+  
