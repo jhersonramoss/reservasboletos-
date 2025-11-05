@@ -144,11 +144,12 @@ h4{
 .tabla{
 
 height: 20px;
-margin-left: 480px;
+margin-left: 300px;
 
 }
 .reser{
-  margin-left: 600px;
+  display: flex;
+  margin-left: 300px;
   padding: 20px;
   border-radius: 10px;
   
